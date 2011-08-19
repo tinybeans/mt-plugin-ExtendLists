@@ -1,0 +1,59 @@
+<mt:Ignore> blog </mt:Ignore>
+<mtapp:setting
+    id="el_blog"
+    label="<__trans phrase="Manage Blog">">
+<ul>
+<li>
+    <input type="checkbox" name="blog_description" id="blog_description" value="1"<mt:if name="blog_description"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="Default"> : <__trans phrase="basename">" type="text" name="blog_description_label" id="blog_description_label" value="<mt:if name="blog_description_label"><__trans phrase="<mt:var name="blog_description_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="blog_description_order" id="blog_description_order" value="<mt:if name="blog_description_order"><mt:var name="blog_description_order"></mt:if>" /> )
+</li>
+</ul>
+</mtapp:setting>
+
+<mt:Ignore> entry </mt:Ignore>
+<mtapp:setting
+    id="el_entry"
+    label="<__trans phrase="Manage Entries">">
+<ul>
+<li>
+    <input type="checkbox" name="entry_keywords" id="entry_keywords" value="1"<mt:if name="entry_keywords"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="Default"> : <__trans phrase="basename">" type="text" name="entry_keywords_label" id="entry_keywords_label" value="<mt:if name="entry_keywords_label"><__trans phrase="<mt:var name="entry_keywords_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="entry_keywords_order" id="entry_keywords_order" value="<mt:if name="entry_keywords_order"><mt:var name="entry_keywords_order"></mt:if>" /> )
+</li>
+<li>
+    <input type="checkbox" name="entry_basename" id="entry_basename" value="1"<mt:if name="entry_basename"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="Default"> : <__trans phrase="basename">" type="text" name="entry_basename_label" id="entry_basename_label" value="<mt:if name="entry_basename_label"><__trans phrase="<mt:var name="entry_basename_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="entry_basename_order" id="entry_basename_order" value="<mt:if name="entry_basename_order"><mt:var name="entry_basename_order"></mt:if>" /> )
+</li>
+</ul>
+</mtapp:setting>
+
+<mt:Ignore> page </mt:Ignore>
+<mtapp:setting
+    id="el_page"
+    label="<__trans phrase="Manage Pages">">
+<ul>
+<li>
+    <input type="checkbox" name="page_keywords" id="page_keywords" value="1"<mt:if name="page_keywords"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="Default"> : <__trans phrase="basename">" type="text" name="page_keywords_label" id="page_keywords_label" value="<mt:if name="page_keywords_label"><__trans phrase="<mt:var name="page_keywords_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="page_keywords_order" id="page_keywords_order" value="<mt:if name="page_keywords_order"><mt:var name="page_keywords_order"></mt:if>" /> )
+</li>
+</ul>
+</mtapp:setting>
+
+<mt:Ignore> field </mt:Ignore>
+<mtapp:setting
+    id="el_field"
+    label="<__trans phrase="Manage Field">">
+<ul>
+<li>
+    <input type="checkbox" name="field_basename" id="field_basename" value="1"<mt:if name="field_basename"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="Default"> : <__trans phrase="basename">" type="text" name="field_basename_label" id="field_basename_label" value="<mt:if name="field_basename_label"><__trans phrase="<mt:var name="field_basename_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="field_basename_order" id="field_basename_order" value="<mt:if name="field_basename_order"><mt:var name="field_basename_order"></mt:if>" /> )
+</li>
+<li>
+    <input type="checkbox" name="field_default" id="field_default" value="1"<mt:if name="field_default"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="Default"> : <__trans phrase="default">" type="text" name="field_default_label" id="field_default_label" value="<mt:if name="field_default_label"><__trans phrase="<mt:var name="field_default_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="field_default_order" id="field_default_order" value="<mt:if name="field_default_order"><mt:var name="field_default_order"></mt:if>" /> )
+</li>
+<li>
+    <input type="checkbox" name="field_required" id="field_required" value="1"<mt:if name="field_required"> checked="checked"</mt:if> /> 
+    <input class="text short" title="<__trans phrase="required"> : <__trans phrase="required">" type="text" name="field_required_label" id="field_required_label" value="<mt:if name="field_required_label"><__trans phrase="<mt:var name="field_required_label" encode_html="1">"></mt:if>" /> ( <__trans phrase="Order"> : <input class="text num" type="text" name="field_required_order" id="field_required_order" value="<mt:if name="field_required_order"><mt:var name="field_required_order"></mt:if>" /> )
+</li>
+</ul>
+</mtapp:setting>
