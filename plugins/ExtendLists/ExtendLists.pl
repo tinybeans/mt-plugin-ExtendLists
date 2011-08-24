@@ -2,7 +2,7 @@ package MT::Plugin::ExtendLists;
 use strict;
 use base qw( MT::Plugin );
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 my $plugin = MT::Plugin::ExtendLists->new({
     id          => 'ExtendLists',
