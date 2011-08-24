@@ -19,7 +19,7 @@ sub pre_run {
     $prop->{blog}->{'description'} = {
         auto => 1,
         label => $plugin->get_config_value('blog_description_label', $scope),
-        label => $plugin->get_config_value('blog_description_order', $scope),
+        order => $plugin->get_config_value('blog_description_order', $scope),
         display => &_display_option($plugin->get_config_value('blog_description', $scope)),
     };
 
